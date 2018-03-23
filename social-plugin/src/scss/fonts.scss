@@ -1,0 +1,43 @@
+$font-path: "../fonts/";
+$font-body: $font-path + "roboto-light-webfont";
+$font-regular: $font-path + "roboto-regular-webfont";
+$font-light: $font-path + "lato-light-webfont";
+
+
+@font-face {
+	font-family: 'robotolight';
+	src: url( $font-body + '.eot');
+	src: url( $font-body + '.eot?#iefix') format('embedded-opentype'),
+		 url( $font-body + '.woff2') format('woff2'),
+		 url( $font-body + '.woff') format('woff'),
+		 url( $font-body + '.ttf') format('truetype'),
+		 url( $font-body + '.svg#helveticaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'robotoregular';
+	src: url( $font-regular + '.eot');
+	src: url( $font-regular + '.eot?#iefix') format('embedded-opentype'),
+		 url( $font-regular + '.woff2') format('woff2'),
+		 url( $font-regular + '.woff') format('woff'),
+		 url( $font-regular + '.ttf') format('truetype'),
+		 url( $font-regular + '.svg#helveticaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'latolight';
+	src: url( $font-light + '.eot');
+	src: url( $font-light + '.eot?#iefix') format('embedded-opentype'),
+		 url( $font-light + '.woff2') format('woff2'),
+		 url( $font-light+ '.woff') format('woff'),
+		 url( $font-light + '.ttf') format('truetype'),
+		 url( $font-light + '.svg#helveticaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+$font-family-body: 'robotolight' , arial, helvetica, sans-serif;
+$font-family-regular: 'robotoregular' , arial, helvetica, sans-serif;
+$font-family-light: 'latolight' , arial, helvetica, sans-serif;
